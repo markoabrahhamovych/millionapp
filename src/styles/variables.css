@@ -1,0 +1,25 @@
+:root {
+    /* colors: */
+    --main-color: #FF8B37;
+    --main-color-hover: #FFAC70;
+    --main-color-inactive: #FF8B37;
+    --main-color-pressed: #E87928;
+    --white-color: #ffffff;
+    --main-bg-color: #f5f5f7;
+    --text-color: #1C1C21;
+    --grey-color: #D0D0D8;
+    /*text-sizes: */
+    --root-size: 0.875rem;
+    --h1-title-size: 3.5rem;
+    --h2-title-size: 2rem;
+    --text-size: 1.25rem;
+
+    /* transition */
+    --general-transition: 0.4s;
+
+    /* breakpoints */
+    --xxl-size: 1201px;
+    --lg-size: 1025px;
+    --md--size: 769px;
+    --sm--size: 481px;
+}

@@ -1,0 +1,44 @@
+.home-main-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 11.3vw;
+  z-index: 5;
+  padding: 0 2.5rem;
+  position: relative;
+  right: 8vw;
+  top: -26px;
+}
+
+.home-main-block .like-img {
+  max-width: 28.25rem;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 451 / 356;
+  position: relative;
+  bottom: 35px;
+}
+
+.home-main-block-start-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 3.75rem;
+}
+
+.home-main-block-start-side .btn {
+  margin-top: 4rem;
+}
+
+.home-main-block-start-side > h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #1c1c21;
+  opacity: 0.5;
+}
+
+.home-main-block-start-side .first-title {
+  max-width: 37.5rem;
+}

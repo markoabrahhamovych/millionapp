@@ -1,0 +1,148 @@
+.remuneration-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  position: relative;
+  z-index: 1;
+}
+
+.remuneration-list-wrapper .remuneration-item {
+  border: 0.063rem solid #d0d0d8;
+  max-width: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: var(--text-size);
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.remuneration-list-wrapper .remuneration-item-active {
+  border: 0.063rem solid #FF8B37 !important;
+  color: #FF8B37 !important;
+}
+
+.remuneration-list-wrapper .remuneration-item-active:before,
+.remuneration-item-active:after {
+  background-color: #FF8B37 !important;
+}
+
+.remuneration-list-wrapper .remuneration-item-active  .remuneration-item-left:before{
+  border-color: transparent #FF8B37 !important;
+}
+
+.remuneration-list-wrapper .remuneration-item-active  .remuneration-item-right:before{
+  border-color: transparent #FF8B37 !important;
+}
+
+.remuneration-list-wrapper .remuneration-item:before,
+.remuneration-item:after {
+  background-color: #d0d0d8;
+  content: "";
+  display: inline-block;
+  height: 0.063rem;
+  position: absolute;
+  vertical-align: middle;
+  width: 15%;
+  z-index: -1;
+}
+
+.remuneration-list-wrapper .remuneration-item-inactive {
+  color: #D0D0D8!important;
+  opacity: 0.7;
+  border: 0.063rem solid #D0D0D8 !important;
+}
+
+
+.remuneration-list-wrapper .remuneration-item:before {
+  right: 0;
+}
+
+.remuneration-list-wrapper .remuneration-item:after {
+  left: 0;
+}
+
+.remuneration-list-wrapper .remuneration-item .remuneration-item-left {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.remuneration-list-wrapper .remuneration-item .remuneration-item-left:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 1.313rem 0 1.313rem 0.75rem;
+  border-color: transparent #ffff;
+  display: block;
+  width: 0;
+  z-index: 1;
+  right: -0.75rem;
+}
+
+.remuneration-list-wrapper .remuneration-item .remuneration-item-left:before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 1.313rem 0 1.313rem 0.75rem;
+  border-color: transparent #d6d2d2;
+  display: block;
+  width: 0;
+  z-index: 0;
+  right: -0.813rem;
+}
+
+.remuneration-list-wrapper
+  .remuneration-item
+  .remuneration-item-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remuneration-list-wrapper
+  .remuneration-item
+  .remuneration-item-wrapper
+  > span {
+  position: absolute;
+}
+
+.remuneration-list-wrapper .remuneration-item .remuneration-item-right {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.remuneration-list-wrapper .remuneration-item .remuneration-item-right:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 1.313rem 0.75rem 1.313rem 0;
+  border-color: transparent #ffff;
+  display: block;
+  width: 0;
+  z-index: 2;
+  left: -0.75rem;
+}
+
+.remuneration-list-wrapper .remuneration-item .remuneration-item-right:before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 1.313rem 0.75rem 1.313rem 0;
+  border-color: transparent #d6d2d2;
+  display: block;
+  width: 0;
+  z-index: 0;
+  left: -0.813rem;
+}
