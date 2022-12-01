@@ -20,24 +20,27 @@ import { home, gameOverPage } from "./constants";
 
 const App = () => {
   console.log(window.location.origin);
-  const router = createBrowserRouter([
-    {
-      path: home,
-      element: <Home />,
-    },
-    {
-      path: "/game-page/:id",
-      element: <GamePage />,
-    },
-    {
-      path: gameOverPage,
-      element: <GameOverPage />,
-    },
-    {
-      path: "*",
-      element: <Navigate to={"/"} />,
-    },
-  ]);
+  const router = createBrowserRouter(
+    [
+      {
+        path: home,
+        element: <Home />,
+      },
+      {
+        path: "/game-page/:id",
+        element: <GamePage />,
+      },
+      {
+        path: gameOverPage,
+        element: <GameOverPage />,
+      },
+      {
+        path: "*",
+        element: <Navigate to={"/"} />,
+      },
+    ],
+    { basename: window.location.origin }
+  );
 
   return (
     <div className={"page-container"}>
