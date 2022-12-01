@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 
 //Style Imports
-import "./game-page-style.css";
-import "./game-page-style-media.css";
+import "../components/gamePage/game-page-style.css";
+import "../components/gamePage/game-page-style-media.css";
 
 //Components Imports
-import { QuestionsList, AwardsList } from "./components";
+import { QuestionsList, AwardsList } from "../components/gamePage/components";
 
 //Mock Imports
 import { useParams } from "react-router-dom";
-import { onFetchQuestions } from "../../utils/onFetchQuestions";
+import { onFetchQuestions } from "../utils/onFetchQuestions";
 
 export const GamePage = () => {
   const [questionsDate, setQuestionsDate] = useState(null);

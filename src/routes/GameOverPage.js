@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 
 //Style Imports
-import "./game-over-page-style.css";
-import "./game-over-page-style-media.css";
+import "../components/gameOverPage/game-over-page-style.css";
+import "../components/gameOverPage/game-over-page-style-media.css";
 
 //Components Imports
-import { MainBlock } from "../../common";
+import { MainBlock } from "../common";
 
 //Constants Imports
-import { gamePage } from "../../constants";
-import { onFetchQuestions } from "../../utils/onFetchQuestions";
+import { gamePage } from "../constants";
+import { onFetchQuestions } from "../utils/onFetchQuestions";
 
 export const GameOverPage = () => {
   const [questionId, setQuestionId] = useState(null);

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 
 //Style Imports
-import "./home-style.css";
-import "./home-style-media.css";
+import "../components/home/home-style.css";
+import "../components/home/home-style-media.css";
 
 //Components Imports
-import { MainBlock } from "../../common";
-import { gamePage } from "../../constants";
-import { onFetchQuestions } from "../../utils/onFetchQuestions";
+import { MainBlock } from "../common";
+import { gamePage } from "../constants";
+import { onFetchQuestions } from "../utils/onFetchQuestions";
 
 export const Home = () => {
   const [questionId, setQuestionId] = useState(null);
