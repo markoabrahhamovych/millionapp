@@ -19,6 +19,7 @@ import { Home, GamePage, GameOverPage } from "./domains";
 import { home, gameOverPage } from "./constants";
 
 const App = () => {
+  console.log(window.location.origin);
   const router = createBrowserRouter(
     [
       {
@@ -38,7 +39,7 @@ const App = () => {
         element: <Navigate to={"/"} />,
       },
     ],
-    { basename: process.env.PUBLIC_URL }
+    { basename: window.location.origin }
   );
 
   return (
