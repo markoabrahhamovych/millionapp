@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.efa03d6d.css",
-    "main.js": "/static/js/main.1f1cfdc5.js",
-    "static/media/Inter-ExtraBold.ttf": "/static/media/Inter-ExtraBold.e4a4cb7133001f282a15.ttf",
-    "static/media/Inter-Black.ttf": "/static/media/Inter-Black.143c28420846d45c5834.ttf",
-    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
-    "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
-    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
-    "static/media/Inter-ExtraLight.ttf": "/static/media/Inter-ExtraLight.1815b9a8a67debdb3966.ttf",
-    "static/media/Inter-Thin.ttf": "/static/media/Inter-Thin.f341ca512063c66296d1.ttf",
-    "static/media/Inter-Light.ttf": "/static/media/Inter-Light.eec8664621fec98efb37.ttf",
-    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
-    "static/media/like-img.svg": "/static/media/like-img.ae778be2545d339186d7f27827d5ba72.svg",
-    "index.html": "/index.html",
-    "main.efa03d6d.css.map": "/static/css/main.efa03d6d.css.map",
-    "main.1f1cfdc5.js.map": "/static/js/main.1f1cfdc5.js.map"
+    "main.css": "/millionapp/static/css/main.cb4005d0.css",
+    "main.js": "/millionapp/static/js/main.c261d35b.js",
+    "static/media/Inter-ExtraBold.ttf": "/millionapp/static/media/Inter-ExtraBold.e4a4cb7133001f282a15.ttf",
+    "static/media/Inter-Black.ttf": "/millionapp/static/media/Inter-Black.143c28420846d45c5834.ttf",
+    "static/media/Inter-Bold.ttf": "/millionapp/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-SemiBold.ttf": "/millionapp/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/Inter-Medium.ttf": "/millionapp/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
+    "static/media/Inter-ExtraLight.ttf": "/millionapp/static/media/Inter-ExtraLight.1815b9a8a67debdb3966.ttf",
+    "static/media/Inter-Thin.ttf": "/millionapp/static/media/Inter-Thin.f341ca512063c66296d1.ttf",
+    "static/media/Inter-Light.ttf": "/millionapp/static/media/Inter-Light.eec8664621fec98efb37.ttf",
+    "static/media/Inter-Regular.ttf": "/millionapp/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/like-img.svg": "/millionapp/static/media/like-img.ae778be2545d339186d7f27827d5ba72.svg",
+    "index.html": "/millionapp/index.html",
+    "main.cb4005d0.css.map": "/millionapp/static/css/main.cb4005d0.css.map",
+    "main.c261d35b.js.map": "/millionapp/static/js/main.c261d35b.js.map"
   },
   "entrypoints": [
-    "static/css/main.efa03d6d.css",
-    "static/js/main.1f1cfdc5.js"
+    "static/css/main.cb4005d0.css",
+    "static/js/main.c261d35b.js"
   ]
 }
