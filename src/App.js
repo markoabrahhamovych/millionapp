@@ -19,24 +19,27 @@ import { Home, GamePage, GameOverPage } from "./domains";
 import { home, gameOverPage } from "./constants";
 
 const App = () => {
-  const router = createBrowserRouter([
-    {
-      path: home,
-      element: <Home />,
-    },
-    {
-      path: "/game-page/:id",
-      element: <GamePage />,
-    },
-    {
-      path: gameOverPage,
-      element: <GameOverPage />,
-    },
-    {
-      path: "*",
-      element: <Navigate to={"/"} />,
-    },
-  ]);
+  const router = createBrowserRouter(
+    [
+      {
+        path: home,
+        element: <Home />,
+      },
+      {
+        path: "/game-page/:id",
+        element: <GamePage />,
+      },
+      {
+        path: gameOverPage,
+        element: <GameOverPage />,
+      },
+      {
+        path: "*",
+        element: <Navigate to={"/"} />,
+      },
+    ],
+    { basename: process.env.PUBLIC_URL }
+  );
 
   return (
     <div className={"page-container"}>
