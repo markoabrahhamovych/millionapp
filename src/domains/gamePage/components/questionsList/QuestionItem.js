@@ -4,7 +4,7 @@ import React from "react";
 import "./questionList-style.css";
 
 export const QuestionItem = ({ item, onAnswer }) => {
-  const { answer, isTrueAnswer, id } = item;
+  const { answer, isTrueAnswer, id, variant } = item;
 
   return (
     <div
@@ -13,7 +13,8 @@ export const QuestionItem = ({ item, onAnswer }) => {
     >
       <div className={"question-item-wrapper"}>
         <div className={"question-item-left"}></div>
-        <span>{answer}</span>
+        <span>{variant}</span>
+        <h4>{answer}</h4>
         <div className={"question-item-right"}></div>
       </div>
     </div>

@@ -18,7 +18,8 @@
     --general-transition: 0.4s;
 
     /* breakpoints */
-    --xxl-size: 1201px;
+    --xxl-size: 1520px;
+    --xl-size: 1201px;
     --lg-size: 1025px;
     --md--size: 769px;
     --sm--size: 481px;

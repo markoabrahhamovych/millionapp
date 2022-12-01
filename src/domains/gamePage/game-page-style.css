@@ -1,15 +1,17 @@
 .game-page-wrapper {
-  display: grid;
-  grid-template-columns: 80% 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   height: 100%;
 }
 
 .game-page-wrapper .left-side {
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 8.313rem 0 7.625rem 5rem;
+  padding: 8.313rem 5.6vw 7.625rem 6vw;
   background: var(--main-bg-color);
 }
 
@@ -25,10 +27,58 @@
 .game-page-wrapper .right-side {
   height: 100%;
   width: 100%;
+  max-width: 376px;
   display: flex;
   flex-direction: column;
   padding: 10.375rem 0;
   background: var(--white-color);
   position: relative;
   z-index: 1;
+}
+
+.game-page-wrapper .hamburger-wrapper {
+  display: none;
+  flex-direction: column;
+  row-gap: 5px;
+  position: absolute;
+  right: 20px;
+  top: 21px;
+  width: 32px;
+  z-index: 2;
+}
+
+.game-page-wrapper .hamburger-wrapper span {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+.game-page-wrapper .hamburger-wrapper span:nth-child(1) {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.game-page-wrapper .hamburger-wrapper span:nth-child(2) {
+  transition: transform 0.2s ease-in-out;
+}
+
+.game-page-wrapper .hamburger-wrapper span:nth-child(3) {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.game-page-wrapper .hamburger-menu-active span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.game-page-wrapper .hamburger-menu-active span:nth-child(2) {
+  transform: scaleY(0);
+}
+
+.game-page-wrapper .hamburger-menu-active span:nth-child(3) {
+  transform: rotate(-42deg);
+  margin-left: -1.5px;
+  margin-top: 2px;
 }

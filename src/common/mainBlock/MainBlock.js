@@ -25,8 +25,10 @@ export const MainBlock = ({
 
   const blockStart = (
     <div className={"home-main-block-start-side"}>
-      {withTotalScope ? <h3>{totalScopeTitle}</h3> : null}
-      <h1 className={"first-title"}>{mainTitle}</h1>
+      <div style={{ width: "100%" }}>
+        {withTotalScope ? <h3>{totalScopeTitle}</h3> : null}
+        <h1 className={"first-title"}>{mainTitle}</h1>
+      </div>
       <Button
         name={btnTitle}
         linkTo={btnLink}

@@ -8,22 +8,26 @@
         {
           "id": 1,
           "answer": "10 years",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "11 years",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "12 years",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "13 years",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -89,22 +93,26 @@
         {
           "id": 1,
           "answer": "Lviv",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "Rivne",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "Kyiv",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "Dnipro",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -170,22 +178,26 @@
         {
           "id": 1,
           "answer": "Chernivtsi region",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "Transcarpathian region",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "Kyiv region",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "Cherkasy region",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -251,22 +263,26 @@
         {
           "id": 1,
           "answer": "XI",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "XV",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "XVII",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "XVIII",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -332,22 +348,26 @@
         {
           "id": 1,
           "answer": "Luxembourg",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "Monaco",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "San Marino",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "Vatican",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -413,22 +433,26 @@
         {
           "id": 1,
           "answer": "1595",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "1600",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "1650",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "1545",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -494,22 +518,26 @@
         {
           "id": 1,
           "answer": "Charles III",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "Elizabeth II",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "Георг VI",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "Едуард VIII",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -575,22 +603,26 @@
         {
           "id": 1,
           "answer": "4 September 1998",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "15 December 2000",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "20 November 1999",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "30 October 1997",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -656,22 +688,26 @@
         {
           "id": 1,
           "answer": "July 15, 1989",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "May 22 1990",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "November 20, 1985",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "April 1 , 1984",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -734,21 +770,24 @@
       "question": "Date of US Declaration of Independence?",
       "next_question_id": 11,
       "answers": [
-        { "id": 1, "answer": "July 4, 1776", "isTrue": true },
+        { "id": 1, "answer": "July 4, 1776", "isTrue": true, "variant": "a" },
         {
           "id": 2,
           "answer": "October 20 , 1768",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "Jun 12, 1788",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "December 25 , 1789",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -814,22 +853,26 @@
         {
           "id": 1,
           "answer": "New-York",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "Chicago",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "Washington",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "Austin",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [
@@ -895,22 +938,26 @@
         {
           "id": 1,
           "answer": "Austria",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "a"
         },
         {
           "id": 2,
           "answer": "Ukraine",
-          "isTrue": true
+          "isTrue": true,
+          "variant": "b"
         },
         {
           "id": 3,
           "answer": "Italy",
-          "isTrue": false
+          "isTrue": false,
+          "variant": "c"
         },
         {
           "id": 4,
           "answer": "Germany",
-          "isTrue":false
+          "isTrue": false,
+          "variant": "d"
         }
       ],
       "awards": [

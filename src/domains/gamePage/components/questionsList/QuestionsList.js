@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 //Style Imports
 import "./questionList-style.css";
+import "./questionList-style-media.css";
 
 //Components Imports
 import { QuestionItem } from "./QuestionItem";
