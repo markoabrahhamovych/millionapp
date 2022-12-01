@@ -1,11 +1,7 @@
 import React from "react";
 
 //Libraries Imports
-import {
-  createBrowserRouter,
-  Navigate,
-  RouterProvider,
-} from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 //Style Imports
 import "./styles/globals.css";
@@ -19,29 +15,15 @@ import { Home, GamePage, GameOverPage } from "./domains";
 import { home, gameOverPage } from "./constants";
 
 const App = () => {
-  console.log(window.location.origin);
-  const router = createBrowserRouter([
-    {
-      path: home,
-      element: <Home />,
-    },
-    {
-      path: "/game-page/:id",
-      element: <GamePage />,
-    },
-    {
-      path: gameOverPage,
-      element: <GameOverPage />,
-    },
-    {
-      path: "*",
-      element: <Navigate to={"/"} />,
-    },
-  ]);
-
   return (
     <div className={"page-container"}>
-      <RouterProvider router={router} />
+      <BrowserRouter>
+        <Routes>
+          <Route path={home} element={<Home />} />
+          <Route path="/game-page/:id" element={<GamePage />} />
+          <Route path={gameOverPage} element={<GameOverPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };
