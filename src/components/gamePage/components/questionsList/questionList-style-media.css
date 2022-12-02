@@ -26,7 +26,7 @@
 @media screen and (max-width: 769px) {
   .questions-list-wrapper .question-item-wrapper span,
   h4 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .questions-list-wrapper .question-item {
@@ -49,12 +49,12 @@
     align-items: center;
     width: 100%;
     max-width: 100%;
-    row-gap: 8px;
+    row-gap: 0.5rem;
   }
 
   .questions-list-wrapper .question-item {
     max-width: 75.6vw;
-    height: 56px;
+    height: 3.5rem;
     min-height: unset;
   }
 
@@ -68,25 +68,25 @@
 
   .questions-list-wrapper .question-item-wrapper span,
   h4 {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .questions-list-wrapper .question-item-left:after {
-    border-width: 26.5px 27px 25px 0;
-    left: -24px;
+    border-width: 1.656rem 1.688rem 1.563rem 0;
+    left: -1.5rem;
   }
 
   .questions-list-wrapper .question-item-left:before {
-    border-width: 26.5px 27px 25px 0;
+    border-width: 1.656rem 1.688rem 1.563rem 0;
     left: -25px;
   }
 
   .questions-list-wrapper .question-item-right:after {
-    right: -24px;
-    border-width: 25px 0 26px 27px;
+    right: -1.5rem;
+    border-width: 1.563rem 0 1.625rem 1.688rem;
   }
   .questions-list-wrapper .question-item-right:before {
-    right: -25px;
-    border-width: 25px 0 26.5px 27px;
+    right: -1.563rem;
+    border-width: 1.563rem 0 1.656rem 1.688rem;
   }
 }

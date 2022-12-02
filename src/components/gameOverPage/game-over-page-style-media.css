@@ -1,6 +1,6 @@
 @media screen and (max-width: 1201px) {
     .game-over-wrapper .right-side {
-        max-width: 300px;
+        max-width: 18.75rem;
     }
 
     .game-over-wrapper .left-side {
@@ -17,7 +17,7 @@
         display: block;
         position: fixed;
         right: -100%;
-        transition: 0.4s;
+        transition: var(--general-transition);
         max-width: unset;
         height: 0;
         width: 0;
@@ -37,15 +37,15 @@
 
 @media screen and (max-width: 769px) {
     .game-page-wrapper .left-side h1 {
-        font-size: 28px;
-        padding: 0 40px;
+        font-size: 1.75rem;
+        padding: 0 2.5rem;
     }
 
     .game-page-wrapper .left-side {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 136px 0 24px 0;
+        padding: 8.5rem 0 1.5rem 0;
     }
 
     .game-page-wrapper .right-side {
@@ -60,36 +60,36 @@
 
 @media screen and (max-width: 481px) {
     .game-page-wrapper .left-side h1 {
-        font-size: 18px;
+        font-size: var(--text-size);
     }
 
     .game-page-wrapper .right-side {
-        padding-top: 64px;
-        padding-bottom: 32px;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
         overflow: auto;
     }
 
     .game-page-wrapper .hamburger-wrapper {
-        width: 16px;
-        height: 15px;
-        row-gap: 4px;
+        width: 1rem;
+        height: 0.938rem;
+        row-gap: 0.25rem;
     }
 
     .game-page-wrapper .hamburger-wrapper > span {
-        height: 7px;
+        height: 0.438rem;
     }
 
     .game-page-wrapper .hamburger-menu-active {
-        height: 16px;
+        height: 16rem;
     }
 
     .game-page-wrapper .hamburger-menu-active > span:first-child {
         position: relative;
-        left: -2px;
-        top: 3px;
+        left: -0.125rem;
+        top: 0.188rem;
     }
 
     .game-page-wrapper .hamburger-menu-active > span:last-child {
-        margin-left: -2.5px;
+        margin-left: -0.156rem;
     }
 }

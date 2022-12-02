@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
 //Style Imports
 import "../components/gamePage/game-page-style.css";
@@ -7,8 +8,7 @@ import "../components/gamePage/game-page-style-media.css";
 //Components Imports
 import { QuestionsList, AwardsList } from "../components/gamePage/components";
 
-//Mock Imports
-import { useParams } from "react-router-dom";
+//Utils Imports
 import { onFetchQuestions } from "../utils/onFetchQuestions";
 
 export const GamePage = () => {

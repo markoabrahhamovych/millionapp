@@ -48,11 +48,25 @@
     width: 100%;
     padding: 1.25rem 0.5rem;
   }
+
+  .home-main-block-start-side div:first-child {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
 }
 
 @media screen and (max-width: 481px) {
   .home-main-block .home-main-block-start-side .first-title {
     font-size: 32px;
+  }
+
+  .home-main-block-start-side h3 {
+    font-size: 18px;
+  }
+
+  .home-main-block .btn {
+    font-size: 14px !important;
   }
 
   .home-main-block .like-img {

@@ -1,42 +1,48 @@
 @media screen and (max-width: 1025px) {
+
+  .remuneration-list-wrapper{
+    justify-content: center;
+    height: 100%;
+  }
+
   .remuneration-list-wrapper .remuneration-item {
-    max-width: 300px;
+    max-width: 18.75rem;
   }
 }
 
 @media screen and (max-width: 481px) {
   .remuneration-list-wrapper {
-    row-gap: 8px;
+    row-gap: 0.5rem;
   }
 
   .remuneration-list-wrapper .remuneration-item {
-    max-width: 200px;
-    font-size: 14px;
+    max-width: 12.5rem;
+    font-size: 0.875rem;
   }
 
   .remuneration-list-wrapper .remuneration-item .remuneration-item-wrapper {
-    height: 32px;
+    height: 2rem;
     min-height: unset;
   }
 
   .remuneration-list-wrapper .remuneration-item .remuneration-item-left:after {
-    right: -13px;
-    border-width: 14px 0 14px 14px;
+    right: -0.813rem;
+    border-width: 0.875rem 0 0.875rem 0.875rem;
   }
   .remuneration-list-wrapper .remuneration-item .remuneration-item-left:before {
-    border-width: 14px 0 14px 14px;
-    right: -14px;
+    border-width: 0.875rem 0 0.875rem 0.875rem;
+    right: -0.875rem;
   }
 
   .remuneration-list-wrapper .remuneration-item .remuneration-item-right:after {
-    border-width: 14px 14px 14px 0;
-    left: -13px;
+    border-width: 0.875rem 0.875rem 0.875rem 0;
+    left: -0.813rem;
   }
 
   .remuneration-list-wrapper
     .remuneration-item
     .remuneration-item-right:before {
-    border-width: 14px 14px 14px 0;
-    left: -14px;
+    border-width: 0.875rem 0.875rem 0.875rem 0;
+    left: -0.875rem;
   }
 }

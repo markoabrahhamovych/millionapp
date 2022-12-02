@@ -6,6 +6,8 @@ import "./awards-list-style-media.css";
 
 //Components Imports
 import { AwardItem } from "./AwardItem";
+
+//Utils Imports
 import { onExtractAwardsList } from "../../utils/onExtractAwardsList";
 
 export const AwardsList = ({ list = [] }) => {

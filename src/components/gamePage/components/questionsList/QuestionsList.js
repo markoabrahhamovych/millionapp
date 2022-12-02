@@ -7,6 +7,8 @@ import "./questionList-style-media.css";
 //Components Imports
 import { QuestionItem } from "./QuestionItem";
 import { useNavigate } from "react-router-dom";
+
+//Utils Imports
 import { onAnswer } from "../../utils/onAswer";
 
 export const QuestionsList = ({ date }) => {
@@ -28,6 +30,9 @@ export const QuestionsList = ({ date }) => {
 
   useEffect(() => {
     setQuestions(date?.answers);
+    return () => {
+      setQuestions([]);
+    };
   }, [date]);
 
   const questionsList = questions?.length

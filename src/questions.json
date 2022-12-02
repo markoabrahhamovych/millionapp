@@ -529,13 +529,13 @@
         },
         {
           "id": 3,
-          "answer": "Георг VI",
+          "answer": "George VI",
           "isTrue": false,
           "variant": "c"
         },
         {
           "id": 4,
-          "answer": "Едуард VIII",
+          "answer": "Edward VIII",
           "isTrue": false,
           "variant": "d"
         }

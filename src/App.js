@@ -9,17 +9,17 @@ import "./styles/fonts.css";
 import "./styles/variables.css";
 
 //Page Imports
-import { Home, GamePage, GameOverPage } from "./components";
+import { Home } from "./routes/Home";
+import { GamePage } from "./routes/GamePage";
+import { GameOverPage } from "./routes/GameOverPage";
 
 //Constants Imports
 import { home, gameOverPage } from "./constants";
-import Navbar from "./common/Navbar/Navbar";
 
 const App = () => {
   return (
     <div className={"page-container"}>
       <Router>
-        <Navbar />
         <Routes>
           <Route path={home} element={<Home />} />
           <Route path="/game-page/:id" element={<GamePage />} />
