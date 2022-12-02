@@ -1,0 +1,1019 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "How old your elder brother was 10 years before you was born, mate?",
+      "next_question_id": 2,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "10 years",
+          "isTrue": true,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "11 years",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "12 years",
+          "isTrue": false,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "13 years",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the capital of Ukraine?",
+      "next_question_id": 3,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Lviv",
+          "isTrue": false,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "Rivne",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "Kyiv",
+          "isTrue": true,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "Dnipro",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": true
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is the smallest region of Ukraine?",
+      "next_question_id": 4,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Chernivtsi region",
+          "isTrue": true,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "Transcarpathian region",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "Kyiv region",
+          "isTrue": false,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "Cherkasy region",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": true
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "In what century was gunpowder invented?",
+      "next_question_id": 5,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "XI",
+          "isTrue": true,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "XV",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "XVII",
+          "isTrue": false,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "XVIII",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": true
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the smallest country in the world?",
+      "next_question_id": 6,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Luxembourg",
+          "isTrue": false,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "Monaco",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "San Marino",
+          "isTrue": false,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "Vatican",
+          "isTrue": true,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": true
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When was Romeo and Juliet written?",
+      "next_question_id": 7,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "1595",
+          "isTrue": true,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "1600",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "1650",
+          "isTrue": false,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "1545",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": true
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "who is running Great Britain now?",
+      "next_question_id": 8,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Charles III",
+          "isTrue": true,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "Elizabeth II",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "George VI",
+          "isTrue": false,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "Edward VIII",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": true
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When was the first series of \"Who Wants to Be a Millionaire?\", released?",
+      "next_question_id": 9,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "4 September 1998",
+          "isTrue": true,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "15 December 2000",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "20 November 1999",
+          "isTrue": false,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "30 October 1997",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": true
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "When was the first release of Windows?",
+      "next_question_id": 10,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "July 15, 1989",
+          "isTrue": false,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "May 22 1990",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "November 20, 1985",
+          "isTrue": true,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "April 1 , 1984",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": true
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Date of US Declaration of Independence?",
+      "next_question_id": 11,
+      "answers": [
+        { "id": 1, "answer": "July 4, 1776", "isTrue": true, "variant": "a" },
+        {
+          "id": 2,
+          "answer": "October 20 , 1768",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "Jun 12, 1788",
+          "isTrue": false,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "December 25 , 1789",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": true
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is the capital of the USA?",
+      "next_question_id": 12,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "New-York",
+          "isTrue": false,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "Chicago",
+          "isTrue": false,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "Washington",
+          "isTrue": true,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "Austin",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": false },
+        { "id": 2, "value": "500,000", "currentAward": true },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "In which country is the geographical center of Europe?",
+      "next_question_id": 0,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "Austria",
+          "isTrue": false,
+          "variant": "a"
+        },
+        {
+          "id": 2,
+          "answer": "Ukraine",
+          "isTrue": true,
+          "variant": "b"
+        },
+        {
+          "id": 3,
+          "answer": "Italy",
+          "isTrue": false,
+          "variant": "c"
+        },
+        {
+          "id": 4,
+          "answer": "Germany",
+          "isTrue": false,
+          "variant": "d"
+        }
+      ],
+      "awards": [
+        { "id": 1, "value": "1,000,000", "currentAward": true },
+        { "id": 2, "value": "500,000", "currentAward": false },
+        {
+          "id": 3,
+          "value": "250,000",
+          "currentAward": false
+        },
+        {
+          "id": 4,
+          "value": "125,000",
+          "currentAward": false
+        },
+        {
+          "id": 5,
+          "value": "64,000",
+          "currentAward": false
+        },
+        {
+          "id": 6,
+          "value": "32,000",
+          "currentAward": false
+        },
+        {
+          "id": 7,
+          "value": "16,000",
+          "currentAward": false
+        },
+        {
+          "id": 8,
+          "value": "8,000",
+          "currentAward": false
+        },
+        {
+          "id": 9,
+          "value": "4,000",
+          "currentAward": false
+        },
+        {
+          "id": 10,
+          "value": "2,000",
+          "currentAward": false
+        },
+        {
+          "id": 11,
+          "value": "1,000",
+          "currentAward": false
+        },
+        {
+          "id": 12,
+          "value": "500",
+          "currentAward": false
+        }
+      ]
+    }
+  ]
+}

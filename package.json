@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \\\"react-scripts start\\\" \\\"npx json-server src/questions.json --port 3001\\\"",
+    "start": "concurrently \"react-scripts start\" \"npx json-server questions.json --port 3001\"",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
