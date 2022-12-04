@@ -1,5 +1,5 @@
 export const onFetchQuestions = async (id) => {
-  const API_URL = "http://localhost:3001";
+  const API_URL = "https://test-app-2423.herokuapp.com";
   const QUESTIONS_ROUTE = "/questions";
   let response = null;
   if (id) {
